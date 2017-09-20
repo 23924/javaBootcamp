@@ -1,0 +1,30 @@
+body{
+  background-color: #3A1B0F;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 0px;
+}
+
+#container{
+  color: #aa5522;
+  margin-left: 260px;
+  margin-right: 260px;
+  margin-top: 0px;
+  height: 600px;
+  min-width: 400px;
+  min-width: 400px;
+  border-left: 2px solid #b76e45;
+  border-right: 2px solid #b76e45;
+  text-align: center;
+  }
+
+p{
+  color: #bf593d;
+}
+
+.buttons{
+  color: #ad5010;
+  border: 1px solid #b76e45;
+  width: 10em;
+  background-color: lightgrey;
+}
