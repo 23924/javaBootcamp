@@ -189,12 +189,33 @@ console.log("--------------");
 console.log("VRAAG 24");
 console.log("Zie pagina buttons");
 
+// vraag 25
+var car25 = {type:"renault", model:"twingo", color:"black"};
+var person25 = {name:"luc", age:"19"};
+var cellphone25 = {type:"iPhone", color:"pink", ios:"11"};
+var game25 = {name:"clashroyal", rating:"9/10", playtime:"40 hours"};
+var laptop25 = {type:"macbook", color:"grey", size:"10inch"};
+var school25 = {name:"mediacollege", opleiding:"developer", year:"2"};
+var house25 = {place:"heerhugowaard", rooms:"6", floors:"2"};
+var headphones25 = {name:"bose", type:"qc25", color:"white", coardcolor:"blue"};
+var pet25 = {animal:"cat", type:"maincoon", color:"white", age:"8"};
+var tv25 = {type:"samsung", size:"25inch", color:"black"};
 
+// vraag 26
+console.log("--------------");
+console.log("VRAAG 26");
 
+var function26 = function(firstName, lastName){
+  var name26 = {firstName:firstName, lastName:lastName};
+  console.log(name26);
+}
+function26("luc", "drenth");
 
-
-
-
-
-// var test = [{name: 'Luc', age: 19}, {name:'Berend', age:34}];
-// console.table(test);
+// vraag 27 en vraag 28
+console.log("--------------");
+console.log("VRAAG 27 & 28");
+var showName = function(name){
+  var student = {name: name};
+  console.log(student);
+}
+showName("luc");
